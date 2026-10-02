@@ -19,6 +19,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Decode exact CR27 logo
+        run: |
+          base64 --decode logo-cr27-exato.b64 > logo-cr27-exato.webp
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
