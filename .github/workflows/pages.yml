@@ -19,9 +19,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Build official CR27 logo
+      - name: Build official CR27 negative logo
         run: |
-          cat logo_parts/part*.txt | tr -d '\n' | base64 --decode > logo-cr27-oficial.webp
+          cat logo_parts/part*.txt | tr -d '\n' | base64 --decode > logo-cr27-negativo.webp
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
