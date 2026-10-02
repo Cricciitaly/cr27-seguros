@@ -125,3 +125,12 @@
 .brand-slogan{margin-top:16px!important;text-align:center!important;color:#082b57!important;font-weight:700!important;font-size:16px!important;letter-spacing:.03em!important;text-transform:none!important}
 .footer-logo img{width:145px!important;height:auto!important;border-radius:0!important}
 @media(max-width:560px){.brand-logo-top img{width:145px!important}.signature-card .hero-brand-logo{max-width:100%!important}.brand-slogan{font-size:14px!important}}
+
+/* CR27 exact PNG — preserve original proportions */
+.brand-logo-top img,
+.signature-card .hero-brand-logo{
+  object-fit:contain!important;
+  height:auto!important;
+  filter:none!important;
+  transform:none!important;
+}
