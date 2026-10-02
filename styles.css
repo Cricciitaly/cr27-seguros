@@ -49,3 +49,64 @@
 .brand-slogan{margin-top:16px!important;text-align:center!important;color:#082b57!important;font-weight:700!important;font-size:16px!important;letter-spacing:.02em!important;text-transform:none!important}
 .footer-logo img{width:145px!important;height:auto!important;border-radius:0!important}
 @media(max-width:560px){.brand-logo-top img{width:132px!important}.signature-card .hero-brand-logo{max-width:100%!important}.brand-slogan{font-size:14px!important}}
+
+/* FINAL — CR27 negative brand treatment */
+.site-header{
+  background:#061f45!important;
+  border-bottom:1px solid rgba(255,255,255,.08)!important;
+}
+.nav nav{color:#fff!important}
+.nav nav>a:not(.btn){color:#fff!important}
+.nav nav>a:not(.btn):hover{color:#54b9ff!important}
+.btn-small{
+  background:#fff!important;
+  color:#082b57!important;
+  box-shadow:none!important;
+}
+.brand-logo-top{
+  background:transparent!important;
+  padding:0!important;
+  border:0!important;
+}
+.brand-logo-top img{
+  width:165px!important;
+  height:auto!important;
+  display:block!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.signature-card{
+  background:#061f45!important;
+  border:0!important;
+  padding:30px 34px 24px!important;
+  border-radius:24px!important;
+}
+.signature-card:after{display:none!important}
+.signature-card .hero-brand-logo{
+  width:100%!important;
+  max-width:560px!important;
+  height:auto!important;
+  margin:0 auto!important;
+  display:block!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.brand-slogan{
+  margin-top:16px!important;
+  text-align:center!important;
+  color:#fff!important;
+  font-weight:700!important;
+  font-size:16px!important;
+  letter-spacing:.08em!important;
+  text-transform:none!important;
+}
+.footer-logo img{
+  width:145px!important;
+  height:auto!important;
+  border-radius:0!important;
+}
+@media(max-width:560px){
+  .brand-logo-top img{width:142px!important}
+  .signature-card .hero-brand-logo{max-width:100%!important}
+  .brand-slogan{font-size:14px!important}
+}
