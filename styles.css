@@ -37,3 +37,15 @@
 .brand-slogan{margin-top:14px;text-align:center;color:#082b57;font-weight:700;font-size:16px;letter-spacing:.04em;text-transform:none}
 .footer-logo img{width:145px!important;height:auto!important;border-radius:0!important}
 @media(max-width:560px){.brand-logo-top img{width:132px!important}.brand-slogan{font-size:14px}.signature-card{padding:18px!important}}
+
+/* FINAL official logo treatment */
+.site-header{background:#fff!important;border-bottom:1px solid #e8eef5!important}
+.nav nav{color:#16375f!important}
+.brand-logo-top{background:transparent!important;padding:0!important;border:0!important}
+.brand-logo-top img{width:150px!important;height:auto!important;display:block!important;border-radius:0!important;box-shadow:none!important}
+.signature-card{background:#fff!important;border:1px solid #e2edf6!important;padding:28px 30px 22px!important}
+.signature-card:after{display:none!important}
+.signature-card .hero-brand-logo{width:100%!important;max-width:560px!important;height:auto!important;margin:0 auto!important;display:block!important;border-radius:0!important;box-shadow:none!important}
+.brand-slogan{margin-top:16px!important;text-align:center!important;color:#082b57!important;font-weight:700!important;font-size:16px!important;letter-spacing:.02em!important;text-transform:none!important}
+.footer-logo img{width:145px!important;height:auto!important;border-radius:0!important}
+@media(max-width:560px){.brand-logo-top img{width:132px!important}.signature-card .hero-brand-logo{max-width:100%!important}.brand-slogan{font-size:14px!important}}
