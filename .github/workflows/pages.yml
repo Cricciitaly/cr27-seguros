@@ -24,6 +24,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Build exact CR27 logo
+        run: |
+          cat logo_parts/part*.txt | tr -d '\n' | base64 --decode > logo-cr27.webp
+          rm -rf logo_parts
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
