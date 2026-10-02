@@ -4,3 +4,11 @@
 .signature-card .hero-brand-logo{display:block;width:100%;height:auto;border-radius:0;position:relative;z-index:1}
 .footer-logo img{width:155px}
 @media(max-width:560px){.brand-logo img{width:148px}.footer-logo img{width:138px}}
+
+/* Brand manual exact logo sizing */
+.brand-logo img{width:166px;height:auto;object-fit:contain}
+.signature-card{background:#fff;border:1px solid #e2edf6}
+.signature-card .hero-brand-logo{width:90%;max-width:500px;margin:0 auto}
+.signature-copy{color:#516d8b;text-align:center}
+.footer-logo img{width:145px}
+@media(max-width:560px){.brand-logo img{width:142px}.footer-logo img{width:132px}.signature-card .hero-brand-logo{width:96%}}
