@@ -12,3 +12,15 @@
 .signature-copy{color:#516d8b;text-align:center}
 .footer-logo img{width:145px}
 @media(max-width:560px){.brand-logo img{width:142px}.footer-logo img{width:132px}.signature-card .hero-brand-logo{width:96%}}
+
+/* CR27 approved logo treatment */
+.site-header{background:#061f45;border-bottom:1px solid rgba(255,255,255,.08)}
+.nav nav{color:#dfeaf7}
+.nav nav>a:not(.btn):hover{color:#1aa6ff}
+.btn-small{background:#0b5fc3;color:#fff}
+.brand-logo-top img{width:150px;height:auto;border-radius:8px}
+.signature-card{background:#061f45!important;border:0!important;padding:28px 30px 24px!important}
+.signature-card .hero-brand-logo{width:100%!important;max-width:540px!important;margin:0 auto!important;border-radius:14px!important}
+.brand-slogan{position:relative;z-index:2;text-align:center;color:#fff;font-weight:700;letter-spacing:.22em;font-size:15px;margin-top:18px}
+.footer-logo img{width:145px;border-radius:7px}
+@media(max-width:560px){.brand-logo-top img{width:128px}.brand-slogan{font-size:12px;letter-spacing:.16em}}
